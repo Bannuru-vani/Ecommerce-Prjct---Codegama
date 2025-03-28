@@ -34,7 +34,7 @@ function ProductDetail() {
   }
   return (
     <>
-      <Box className="individaual-productcontainer" mt={6}>
+      <Box className="individaual-productcontainer" sx={{flexWrap:{xs:"wrap",md:"nowrap"}}}  mt={6}>
         <Box>
           <img
             src={selectedProductDetails?.image}
