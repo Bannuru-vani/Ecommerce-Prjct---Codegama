@@ -5,10 +5,12 @@ import ProductDetail from "./components/ProductDetail";
 import CartPage from "./components/CartPage";
 import Layout from "./components/Layout";
 
+
+const basename = process.env.NODE_ENV === "production" ? "/Ecommerce-Prjct---Codegama" : "/";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={basename}>
         <Layout>
           <Routes>
             <Route path="/" element={<ProductGrid />} />
