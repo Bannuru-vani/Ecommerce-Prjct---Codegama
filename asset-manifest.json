@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ecommerce-Prjct---Codegama/static/css/main.4b8d1e4f.css",
+    "main.js": "/Ecommerce-Prjct---Codegama/static/js/main.2cfe6492.js",
+    "index.html": "/Ecommerce-Prjct---Codegama/index.html",
+    "main.4b8d1e4f.css.map": "/Ecommerce-Prjct---Codegama/static/css/main.4b8d1e4f.css.map",
+    "main.2cfe6492.js.map": "/Ecommerce-Prjct---Codegama/static/js/main.2cfe6492.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b8d1e4f.css",
+    "static/js/main.2cfe6492.js"
+  ]
+}
